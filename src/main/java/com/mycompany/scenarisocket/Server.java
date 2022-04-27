@@ -28,8 +28,8 @@ public class Server {
         try {
             ss = new ServerSocket(porta);
             System.out.println("Il server e' in ascolto");
-            //CountDown c = new CountDown;
-            //c.start();
+            CountDown c = new CountDown(10);
+            c.start();
         } catch (IOException ex) {
             Logger.getLogger(Server.class.getName()).log(Level.SEVERE, null, ex);
         }

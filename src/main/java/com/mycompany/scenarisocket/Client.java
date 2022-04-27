@@ -44,7 +44,7 @@ public class Client {
             Logger.getLogger(Client.class.getName()).log(Level.SEVERE, null, ex);
         }
         
-        return "";
+        return msg;
     }
     
 }
